@@ -39,8 +39,9 @@ body {
     border: 2px ridge #2a4d69;
     max-width: 500px;
     opacity: 0.8;
-    box-shadow: 5px 10px ##2a4d69;
+    box-shadow: 5px 10px #2a4d69;
     }
+
   .title {
       align: center; 
     }
