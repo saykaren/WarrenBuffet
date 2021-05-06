@@ -1,0 +1,76 @@
+body {
+    background: linear-gradient(to bottom, #e7eff6 0%,     #63ace5 100%);
+    border: 3px ridge #2a4d69;
+    border-style: ridge;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    }
+  .foot-class {
+    text-align: center;
+    color: #2a4d69;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    }
+  h1 {
+    text-align: center;
+    text-shadow: 4px 3px 2px #2a4d69;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    }
+  .img-caption {
+    text-align: center;
+    }
+  #image2{
+    animation-duration: 3s;
+    animation-name: slidein;
+    }
+  #money-money {
+    position: absolute;
+    opacity: 0.15;
+    z-index: -1;
+    height: 100%;
+    animation-delay: 3s;
+    animation-duration: 10s;
+    animation-name: moneyRotate;
+    }
+  .responsive {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: auto;
+    border: 2px ridge #2a4d69;
+    max-width: 500px;
+    opacity: 0.8;
+    box-shadow: 5px 10px ##2a4d69;
+    }
+  .title {
+      align: center; 
+    }
+  @keyframes slidein{
+    from{
+      width: 10%;
+  /*     -moz-transform: scale(-1, -1);
+      -o-transform: scale(-1, -1);
+      -webkit-transform: scale(-1, -1);
+      transform: scale(-1, -1); */
+      transform: rotate(45deg);
+    }
+    to{
+      width: 100%;
+    }
+  }
+  @keyframes moneyRotate{
+    from {
+      transform: rotate(45deg);
+    }
+    to {
+      transform: rotate(180deg);
+    }
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
